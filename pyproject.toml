@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distributed-biometric-auth"
+version = "0.1.0"
+description = "Communication-efficient distributed biometric authentication using Shamir-based MPC"
+requires-python = ">=3.10"
+dependencies = [
+    "cryptography>=44",
+    "fastapi>=0.115",
+    "httpx>=0.28",
+    "mpyc>=0.11",
+    "numpy>=2.0",
+    "onnx>=1.20",
+    "opencv-python>=4.10",
+    "pydantic>=2.0",
+    "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

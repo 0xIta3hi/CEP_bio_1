@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/biometric_auth/__init__.py
+src/distributed_biometric_auth.egg-info/PKG-INFO
+src/distributed_biometric_auth.egg-info/SOURCES.txt
+src/distributed_biometric_auth.egg-info/dependency_links.txt
+src/distributed_biometric_auth.egg-info/requires.txt
+src/distributed_biometric_auth.egg-info/top_level.txt

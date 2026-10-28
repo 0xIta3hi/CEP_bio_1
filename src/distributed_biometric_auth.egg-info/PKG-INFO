@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: distributed-biometric-auth
+Version: 0.1.0
+Summary: Communication-efficient distributed biometric authentication using Shamir-based MPC
+Requires-Python: >=3.10
+Requires-Dist: cryptography>=44
+Requires-Dist: fastapi>=0.115
+Requires-Dist: httpx>=0.28
+Requires-Dist: mpyc>=0.11
+Requires-Dist: numpy>=2.0
+Requires-Dist: onnx>=1.20
+Requires-Dist: opencv-python>=4.10
+Requires-Dist: pydantic>=2.0
+Requires-Dist: uvicorn>=0.30
+Provides-Extra: test
+Requires-Dist: pytest>=8.0; extra == "test"

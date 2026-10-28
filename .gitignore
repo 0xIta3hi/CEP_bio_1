@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.db
+*.sqlite3
+models/*.onnx
+models/*.sha256
+models/*-LICENSE.txt
+models/verification.json
+artifacts/
+logs/
+.env
